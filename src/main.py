@@ -17,7 +17,7 @@ os.environ['NUMEXPR_MAX_THREADS'] = '48'
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', '-m', type=str, default='MINE', help='name of models')
+    parser.add_argument('--model', '-m', type=str, default='LATTICE_BeFA', help='name of models')
     parser.add_argument('--dataset', '-d', type=str, default='Microlens', help='name of datasets')
 
     config_dict = {
