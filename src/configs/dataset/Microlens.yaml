@@ -1,0 +1,19 @@
+# Common Features
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: item_id
+#RATING_FIELD: rating
+TIME_FIELD: timestamp
+
+filter_out_cod_start_users: True
+
+inter_file_name: 'inter_small.csv'
+
+# name of features
+vision_file_path: 'images_small'
+text_file_path: 'product_info.csv'
+
+vision_feature_file: 'image_feat.npy'
+text_feature_file: 'text_feat.npy'
+user_graph_dict_file: 'user_graph_dict.npy'
+
+field_separator: "\n"
